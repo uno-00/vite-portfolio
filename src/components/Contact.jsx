@@ -183,7 +183,7 @@ function Contact() {
                 value={formData.email}
                 onChange={handleChange}
                 required
-                placeholder="your.email@example.com"
+                placeholder="your.email@gmail.com"
               />
             </div>
             <div className="form-group">
