@@ -18,10 +18,10 @@ function Hero() {
             <span>Available For Opportunities</span>
           </div>
           <h1 className="hero-headline">
-            I'm <span className="highlight-name">Ysa</span>, A Web Developer.
+            I'm <span className="highlight-name">Ysa</span>, a Full Stack Developer.
           </h1>
           <p className="hero-description">
-            I create responsive and professional web applications designed to improve usability and elevate user experience.
+            I transform ideas into fully functional, user-friendly applications that make a meaningful impact.
           </p>
           <div className="hero-buttons">
             <button onClick={scrollToContact} className="btn-primary">Let's Talk</button>

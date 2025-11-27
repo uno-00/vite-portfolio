@@ -29,10 +29,6 @@ function Navigation() {
   return (
     <nav className={`navigation ${scrolled ? 'scrolled' : ''}`}>
       <div className="nav-container">
-        <div className="nav-logo" onClick={() => scrollToSection('hero')}>
-          <span className="logo-star">✦</span>
-        </div>
-        
         <ul className={`nav-links ${mobileMenuOpen ? 'active' : ''}`}>
           <li><a onClick={() => scrollToSection('hero')} className="active">HOME</a></li>
           <li><a onClick={() => scrollToSection('about')}>ABOUT</a></li>

@@ -166,7 +166,21 @@
   font-weight: 600;
 }
 
+@media (max-width: 1024px) {
+  .badges-grid {
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  }
+
+  .certificates-grid {
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  }
+}
+
 @media (max-width: 768px) {
+  .certificates {
+    padding: 80px 20px;
+  }
+
   .section-title {
     font-size: 2.5rem;
   }
@@ -183,11 +197,37 @@
 }
 
 @media (max-width: 480px) {
+  .certificates {
+    padding: 80px 15px;
+  }
+
   .section-title {
     font-size: 2rem;
   }
 
   .badges-grid {
     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  }
+
+  .certificate-content {
+    padding: 1.25rem;
+  }
+
+  .cert-title {
+    font-size: 1.15rem;
+  }
+}
+
+@media (max-width: 360px) {
+  .section-title {
+    font-size: 1.75rem;
+  }
+
+  .badges-grid {
+    grid-template-columns: repeat(auto-fit, minmax(90px, 1fr));
+  }
+
+  .certificate-content {
+    padding: 1rem;
   }
 }

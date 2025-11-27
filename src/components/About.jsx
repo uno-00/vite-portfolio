@@ -36,16 +36,16 @@ function About() {
           <div className="about-text">
             <div className="about-label">ABOUT ME</div>
             <h2 className="about-title">
-             Web Developer
+             Full Stack Developer
             </h2>
             <p className="about-description">
-              I am a passionate and driven web developer with experience in frontend development, UI/UX design, and basic backend integration. I enjoy creating systems that solve real-world problems and improve user experiences.
+              I am a passionate and driven Full Stack Developer with hands-on experience in frontend development, UI/UX design, and backend integration. I enjoy creating systems that solve real-world problems, enhance user experiences, and deliver practical solutions.
             </p>
             <p className="about-description">
-              I was recognized as a Champion in the Byte Forward North Luzon Leg 2025 and a Top 5 Finalist in the National Leg, developing an AI-powered MSME Recommender System that suggests government programs, funding, and digital tools tailored to business profiles. This experience strengthened my skills in problem-solving, innovation, and practical application of technology for social impact.
+              I was recognized as Champion of Byte Forward North Luzon 2025 and a Top 5 Finalist in the National Leg for developing an AI-powered MSME Recommender System, which suggests government programs, funding, and digital tools tailored to business profiles. This experience sharpened my skills in problem-solving, innovation, and leveraging technology for social impact.
             </p>
             <p className="about-description">
-              I am always eager to learn, explore new technologies, and contribute to projects that make a meaningful difference.
+              Always eager to learn and explore new technologies, I am motivated to contribute to projects that create meaningful change and real-world value.
             </p>
             <button onClick={downloadCV} className="download-cv-btn">Download CV</button>
           </div>

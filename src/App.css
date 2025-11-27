@@ -57,6 +57,13 @@ html {
 }
 
 /* Responsive */
+@media (max-width: 1024px) {
+  .container {
+    max-width: 100%;
+    padding: 0 2rem;
+  }
+}
+
 @media (max-width: 768px) {
   section {
     padding: 60px 15px;
@@ -64,6 +71,10 @@ html {
 
   .section-title {
     font-size: 2rem;
+  }
+
+  .container {
+    padding: 0 1.5rem;
   }
 }
 
@@ -79,5 +90,11 @@ html {
 
   .container {
     padding: 0 10px;
+  }
+}
+
+@media (max-width: 360px) {
+  .container {
+    padding: 0 8px;
   }
 }

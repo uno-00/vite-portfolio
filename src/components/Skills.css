@@ -199,10 +199,15 @@
 @media (max-width: 1024px) {
   .skills-grid {
     grid-template-columns: repeat(2, 1fr);
+    gap: 1.75rem;
   }
 }
 
 @media (max-width: 768px) {
+  .skills {
+    padding: 80px 20px;
+  }
+
   .section-title {
     font-size: 2.5rem;
   }
@@ -222,6 +227,10 @@
 }
 
 @media (max-width: 480px) {
+  .skills {
+    padding: 80px 15px;
+  }
+
   .section-title {
     font-size: 2rem;
   }
@@ -246,5 +255,19 @@
 
   .skill-list-item {
     font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 360px) {
+  .section-title {
+    font-size: 1.75rem;
+  }
+
+  .skill-card {
+    padding: 1rem;
+  }
+
+  .skill-card-title {
+    font-size: 1.15rem;
   }
 }

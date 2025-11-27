@@ -163,7 +163,22 @@
   font-weight: 500;
 }
 
+@media (max-width: 1024px) {
+  .about-top {
+    gap: 3rem;
+  }
+
+  .profile-circle {
+    width: 350px;
+    height: 350px;
+  }
+}
+
 @media (max-width: 768px) {
+  .about {
+    padding: 80px 20px;
+  }
+
   .about-top {
     grid-template-columns: 1fr;
     gap: 3rem;
@@ -173,10 +188,15 @@
   .profile-circle {
     width: 300px;
     height: 300px;
+    margin: 0 auto;
   }
 
   .about-title {
     font-size: 2rem;
+  }
+
+  .about-description {
+    font-size: 1rem;
   }
 
   .about-stats {
@@ -205,9 +225,30 @@
 
   .about-description {
     font-size: 0.95rem;
+    line-height: 1.7;
   }
 
   .stat-number {
     font-size: 2.5rem;
+  }
+
+  .download-cv-btn {
+    width: 100%;
+    max-width: 300px;
+  }
+}
+
+@media (max-width: 360px) {
+  .profile-circle {
+    width: 220px;
+    height: 220px;
+  }
+
+  .about-title {
+    font-size: 1.5rem;
+  }
+
+  .about-description {
+    font-size: 0.9rem;
   }
 }
