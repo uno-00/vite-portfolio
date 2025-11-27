@@ -13,15 +13,11 @@ function Hero() {
     <section id="hero" className="hero">
       <div className="hero-content">
         <div className="hero-text">
-          <div className="availability-badge">
-            <span className="badge-star">✦</span>
-            <span>Available For Opportunities</span>
-          </div>
           <h1 className="hero-headline">
-            I'm <span className="highlight-name">Ysa</span>, a Full Stack Developer.
+            I'm <span className="highlight-name">Ysa</span>, Full Stack Developer
           </h1>
           <p className="hero-description">
-            I transform ideas into fully functional, user-friendly applications that make a meaningful impact.
+            I transform ideas into fully functional, user-friendly applications that make a meaningful impact
           </p>
           <div className="hero-buttons">
             <button onClick={scrollToContact} className="btn-primary">Let's Talk</button>
