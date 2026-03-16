@@ -36,10 +36,10 @@ function About() {
           <div className="about-text">
             <div className="about-label">ABOUT ME</div>
             <h2 className="about-title">
-             Full Stack Developer
+             Web Developer
             </h2>
             <p className="about-description">
-              I am a passionate and driven Full Stack Developer with hands-on experience in frontend development, UI/UX design, and backend integration. I enjoy creating systems that solve real-world problems, enhance user experiences, and deliver practical solutions.
+              I am a passionate and driven Web Developer with hands-on experience in frontend development, UI/UX design, and backend integration. I enjoy creating systems that solve real-world problems, enhance user experiences, and deliver practical solutions.
             </p>
             <p className="about-description">
               I was recognized as Champion of Byte Forward North Luzon 2025 and a Top 5 Finalist in the National Leg for developing an AI-powered MSME Recommender System, which suggests government programs, funding, and digital tools tailored to business profiles. This experience sharpened my skills in problem-solving, innovation, and leveraging technology for social impact.
