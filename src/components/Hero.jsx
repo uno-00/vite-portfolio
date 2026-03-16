@@ -14,7 +14,7 @@ function Hero() {
       <div className="hero-content">
         <div className="hero-text">
           <h1 className="hero-headline">
-            I'm <span className="highlight-name">Ysa</span>, Full Stack Developer
+            I'm <span className="highlight-name">Ysa</span>, Web Developer
           </h1>
           <p className="hero-description">
             I transform ideas into fully functional, user-friendly applications that make a meaningful impact
